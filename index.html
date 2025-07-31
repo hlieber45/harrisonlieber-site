@@ -3,12 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    
+    <!-- 🔧 INTERCEPT FETCH BEFORE MAIN BUNDLE -->
+    <script>
+      (function () {
+        const originalFetch = window.fetch.bind(window);
+
+        async function staticJson(filename) {
+          const res = await originalFetch(`data/${filename}.json`);
+          if (!res.ok) throw new Error(`Missing ${filename}.json`);
+          return res.json();
+        }
+
+        window.fetch = async function (input, init) {
+          const url = typeof input === 'string' ? input : input.url || '';
+          
+          // 🎵 ALBUM ROUTES
+          if (url.startsWith('/api/albums')) {
+            const albums = await staticJson('albums');
+            const genreMatch = url.match(/genre=([^&]+)/);
+            const genre = genreMatch ? decodeURIComponent(genreMatch[1]) : null;
+            const filtered = genre ? albums.filter(a => a.genres.includes(genre)) : albums;
+            return new Response(JSON.stringify(filtered), {
+              headers: { 'Content-Type': 'application/json' },
+            });
+          }
+
+          // 🎬 MOVIE ROUTES
+          if (url.startsWith('/api/movies')) {
+            const movies = await staticJson('movies');
+            if (url.includes('category=')) {
+              const cat = url.split('category=')[1].split('&')[0];
+              const filtered = movies.filter(m => m.category === cat);
+              return new Response(JSON.stringify(filtered), {
+                headers: { 'Content-Type': 'application/json' },
+              });
+            }
+            if (url.includes('recently-watched')) {
+              return new Response(JSON.stringify(movies.slice(0, 5)), {
+                headers: { 'Content-Type': 'application/json' },
+              });
+            }
+            return new Response(JSON.stringify(movies), {
+              headers: { 'Content-Type': 'application/json' },
+            });
+          }
+
+          // 📤 MOCK FORM SUBMISSIONS
+          if (url.startsWith('/api/recommendations') || url.startsWith('/api/contact')) {
+            return new Response('{}', { status: 200 });
+          }
+
+          // 🔄 FALLBACK
+          return originalFetch(input, init);
+        };
+      })();
+    </script>
+
+    <!-- 🔗 MAIN BUNDLE AND CSS (no leading slashes!) -->
     <script type="module" crossorigin src="./assets/index-BjRNuOoU.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-COOpelYn.css">
   </head>
+
   <body>
     <div id="root"></div>
-    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
-    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+    <!-- Remove Replit banner script if not needed -->
+    <!-- <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script> -->
   </body>
 </html>
