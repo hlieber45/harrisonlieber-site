@@ -207,13 +207,13 @@
     "title": "What a Time to be Alive",
     "artist": "Drake & Future",
     "genres": "['Hip-Hop']",
-    "imageUrl": NaN
+    "imageUrl": null
   },
   {
     "title": "Funeral",
     "artist": "Lil Wayne",
     "genres": "['Hip-Hop']",
-    "imageUrl": NaN
+    "imageUrl": null
   },
   {
     "title": "Call Me If You Get Lost",
