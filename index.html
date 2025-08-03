@@ -32,13 +32,6 @@
             });
           }
 
-          if (url.startsWith('/api/entertainment')) {
-            const entertainment = await staticJson('entertainment');
-            return new Response(JSON.stringify(entertainment), {
-              headers: { 'Content-Type': 'application/json' }
-            });
-          }
-
           return originalFetch(input, init);
         };
       })();
