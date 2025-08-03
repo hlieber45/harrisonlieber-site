@@ -26,15 +26,23 @@ async function loadMovies() {
 }
 
 function renderAlbum(album) {
-  const genres = Array.isArray(album.genres)
-    ? album.genres
-    : typeof album.genres === "string"
-    ? JSON.parse(album.genres.replace(/'/g, '"'))
-    : [];
+  let genres = [];
+
+  try {
+    if (Array.isArray(album.genres)) {
+      genres = album.genres;
+    } else if (typeof album.genres === "string") {
+      genres = JSON.parse(album.genres.replace(/'/g, '"'));
+    }
+  } catch (e) {
+    console.warn(`Invalid genres for album: ${album.title}`, album.genres);
+  }
+
+  const imgSrc = album.imageUrl || 'covers/default.png';
 
   return `
     <div class="album">
-      <img src="${album.imageUrl || 'covers/default.png'}" alt="${album.title}" />
+      <img src="${imgSrc}" alt="${album.title}" onerror="this.src='covers/default.png';" />
       <h3>${album.title}</h3>
       <p>${album.artist}</p>
       <p>${genres.join(', ')}</p>
