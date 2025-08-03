@@ -3,29 +3,29 @@ document.addEventListener("DOMContentLoaded", () => {
   loadMovies();
 });
 
-/* async function loadAlbums() {
-  try {
+async function loadAlbums() {
+  /* try {
     const res = await fetch("data/albums.json");
     const albums = await res.json();
     const container = document.getElementById("albums-container");
     container.innerHTML = albums.map(renderAlbum).join("");
   } catch (err) {
     console.error("Error loading albums:", err);
-  }
+  }*/
 }
-*/
 
-/* async function loadMovies() {
-  try {
+
+async function loadMovies() {
+  /* try {
     const res = await fetch("data/movies.json");
     const movies = await res.json();
     const container = document.getElementById("movies-container");
     container.innerHTML = movies.map(renderMovie).join("");
   } catch (err) {
     console.error("Error loading movies:", err);
-  }
+  }*/
 }
-*/
+
 
 function renderAlbum(album) {
   let genres = [];
