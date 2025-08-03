@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    
-    <!-- 🔧 SIMPLIFIED FETCH INTERCEPT FOR STATIC FILES -->
+
+    <!-- 🔧 INTERCEPT FETCH TO USE LOCAL JSON FILES -->
     <script>
       (function () {
         const originalFetch = window.fetch.bind(window);
@@ -15,22 +15,27 @@
           return res.json();
         }
 
-        // Only intercept specific patterns, fallback to original fetch
         window.fetch = async function (input, init) {
           const url = typeof input === 'string' ? input : input.url || '';
 
-          // Direct replacements — no longer using /api/
-          if (url === 'albums') {
+          if (url.startsWith('/api/albums')) {
             const albums = await staticJson('albums');
             return new Response(JSON.stringify(albums), {
-              headers: { 'Content-Type': 'application/json' },
+              headers: { 'Content-Type': 'application/json' }
             });
           }
 
-          if (url === 'movies') {
+          if (url.startsWith('/api/movies')) {
             const movies = await staticJson('movies');
             return new Response(JSON.stringify(movies), {
-              headers: { 'Content-Type': 'application/json' },
+              headers: { 'Content-Type': 'application/json' }
+            });
+          }
+
+          if (url.startsWith('/api/entertainment')) {
+            const entertainment = await staticJson('entertainment');
+            return new Response(JSON.stringify(entertainment), {
+              headers: { 'Content-Type': 'application/json' }
             });
           }
 
@@ -39,27 +44,19 @@
       })();
     </script>
 
-    <!-- 🔗 MAIN BUNDLE AND CSS (no leading slashes!) -->
-    <link rel="stylesheet" crossorigin href="./assets/index-COOpelYn.css">
+    <!-- 🧠 MAIN JS & CSS (DO NOT REMOVE!) -->
+    <script type="module" crossorigin src="./assets/index-BjRNuOoU.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-COOpelYn.css" />
     <script src="assets/script.js" defer></script>
 
-    <!-- Moved content into body -->
+    <!-- 📛 SITE TITLE & META -->
+    <title>Harrison Lieber</title>
+    <meta name="description" content="Personal site of Harrison Lieber" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
 
   <body>
-    <div id="root">
-      <div id="albums-section">
-        <h2>Albums</h2>
-        <div id="albums-container"></div>
-      </div>
-
-      <div id="movies-section">
-        <h2>Movies</h2>
-        <div id="movies-container"></div>
-      </div>
-    </div>
-
-    <!-- Remove Replit banner script if not needed -->
-    <!-- <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script> -->
+    <div id="root"></div>
   </body>
 </html>
+
