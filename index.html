@@ -3,27 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    
+    <!-- 🔧 SIMPLIFIED FETCH INTERCEPT FOR STATIC FILES -->
+    <script>
+      (function () {
+        const originalFetch = window.fetch.bind(window);
 
-    <!-- 🔗 CSS and JavaScript (no leading slashes) -->
-    <link rel="stylesheet" href="assets/index-COOpelYn.css" />
-    <script type="module" src="assets/index-BjRNuOoU.js"></script>
+        async function staticJson(filename) {
+          const res = await originalFetch(`data/${filename}.json`);
+          if (!res.ok) throw new Error(`Missing ${filename}.json`);
+          return res.json();
+        }
+
+        // Only intercept specific patterns, fallback to original fetch
+        window.fetch = async function (input, init) {
+          const url = typeof input === 'string' ? input : input.url || '';
+
+          // Direct replacements — no longer using /api/
+          if (url === 'albums') {
+            const albums = await staticJson('albums');
+            return new Response(JSON.stringify(albums), {
+              headers: { 'Content-Type': 'application/json' },
+            });
+          }
+
+          if (url === 'movies') {
+            const movies = await staticJson('movies');
+            return new Response(JSON.stringify(movies), {
+              headers: { 'Content-Type': 'application/json' },
+            });
+          }
+
+          return originalFetch(input, init);
+        };
+      })();
+    </script>
+
+    <!-- 🔗 MAIN BUNDLE AND CSS (no leading slashes!) -->
+    <script type="module" crossorigin src="./assets/index-BjRNuOoU.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-COOpelYn.css">
     <script src="assets/script.js" defer></script>
 
-    <title>Harrison Lieber</title>
+    <!-- Moved content into body -->
   </head>
 
   <body>
     <div id="root">
-      <section id="albums-section">
+      <div id="albums-section">
         <h2>Albums</h2>
         <div id="albums-container"></div>
-      </section>
+      </div>
 
-      <section id="movies-section">
+      <div id="movies-section">
         <h2>Movies</h2>
         <div id="movies-container"></div>
-      </section>
+      </div>
     </div>
+
+    <!-- Remove Replit banner script if not needed -->
+    <!-- <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script> -->
   </body>
 </html>
-
