@@ -5,13 +5,18 @@ async function fetchJSON(url) {
 }
 
 function renderAlbum(album) {
-  const cover = album.imageUrl || "covers/default.png";
+  const genres = Array.isArray(album.genres)
+    ? album.genres
+    : typeof album.genres === 'string'
+      ? JSON.parse(album.genres.replace(/'/g, '"'))
+      : [];
+
   return `
     <div class="album">
-      <img src="${cover}" alt="${album.title}" />
+      <img src="${album.imageUrl}" alt="${album.title}" />
       <h3>${album.title}</h3>
       <p>${album.artist}</p>
-      <p>${album.genres.join(', ')}</p>
+      <p>${genres.join(', ')}</p>
     </div>
   `;
 }
