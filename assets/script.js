@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   loadMovies();
 });
 
-async function loadAlbums() {
+/* async function loadAlbums() {
   try {
     const res = await fetch("data/albums.json");
     const albums = await res.json();
@@ -13,8 +13,9 @@ async function loadAlbums() {
     console.error("Error loading albums:", err);
   }
 }
+*/
 
-async function loadMovies() {
+/* async function loadMovies() {
   try {
     const res = await fetch("data/movies.json");
     const movies = await res.json();
@@ -24,6 +25,7 @@ async function loadMovies() {
     console.error("Error loading movies:", err);
   }
 }
+*/
 
 function renderAlbum(album) {
   let genres = [];
