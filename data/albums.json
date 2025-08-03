@@ -1,998 +1,998 @@
-[
+["
   {
     "title": "10 Day",
     "artist": "Chance the Rapper",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/10-day.png"
   },
   {
     "title": "The Big Day",
     "artist": "Chance the Rapper",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/the-big-day.png"
   },
   {
     "title": "18",
     "artist": "Jack Harlow",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/18.png"
   },
   {
     "title": "2014 Forest Hills Drive",
     "artist": "J. Cole",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/2014-forest-hills-drive.png"
   },
   {
     "title": "30",
     "artist": "Adele",
-    "genres": "['Pop']",
+    "genres": ["Pop"],
     "imageUrl": "covers/30.png"
   },
   {
     "title": "4:44",
     "artist": "Jay-Z",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/444.png"
   },
   {
     "title": "52nd Street",
     "artist": "Billy Joel",
-    "genres": "['Rock']",
+    "genres": ["Rock"],
     "imageUrl": "covers/52nd-street.png"
   },
   {
     "title": "4 Your Eyez Only",
     "artist": "J. Cole",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/4-your-eyez-only.png"
   },
   {
     "title": "Abbey Road",
     "artist": "The Beatles",
-    "genres": "['Rock']",
+    "genres": ["Rock"],
     "imageUrl": "covers/abbey-road.png"
   },
   {
     "title": "A Love Letter To You 3",
     "artist": "Trippie Redd",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/a-love-letter-to-you-3.png"
   },
   {
     "title": "Acid Rap",
     "artist": "Chance the Rapper",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/acid-rap.png"
   },
   {
     "title": "After Hours",
     "artist": "The Weeknd",
-    "genres": "['R&B', 'Pop']",
+    "genres": ["R&B", "Pop"],
     "imageUrl": "covers/after-hours.png"
   },
   {
     "title": "All I Want Is You",
     "artist": "Miguel",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/all-i-want-is-you.png"
   },
   {
     "title": "ANTI",
     "artist": "Rihana",
-    "genres": "['Hip-Hop', 'R&B', 'Pop']",
+    "genres": ["Hip-Hop", "R&B", "Pop"],
     "imageUrl": "covers/anti.png"
   },
   {
     "title": "American Dream",
     "artist": "21 Savage",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/american-dream.png"
   },
   {
     "title": "Alone At Prom",
     "artist": "Tory Lanez",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/alone-at-prom.png"
   },
   {
     "title": "ASTROWORLD",
     "artist": "Travis Scott",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/astroworld.png"
   },
   {
     "title": "ALLIGATOR",
     "artist": "Tommy Richman",
-    "genres": "['Pop']",
+    "genres": ["Pop"],
     "imageUrl": "covers/alligator.png"
   },
   {
     "title": "Born Sinner",
     "artist": "J. Cole",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/born-sinner.png"
   },
   {
     "title": "Bobby Tarantino 2",
     "artist": "Logic",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/bobby-tarantino-2.png"
   },
   {
     "title": "Blonde",
     "artist": "Frank Ocean",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/blonde.png"
   },
   {
     "title": "Birds In The Trap Sing Mcknight",
     "artist": "Travis Scott",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/birds-in-the-trap-sing-mcknight.png"
   },
   {
     "title": "Better Me Than You",
     "artist": "Big Sean",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/better-me-than-you.png"
   },
   {
     "title": "Bad Cameo",
     "artist": "Lil Yatchy & James Blake",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/bad-cameo.png"
   },
   {
     "title": "Axis: Bold As Love",
     "artist": "Jimi Hendrix",
-    "genres": "['Rock']",
+    "genres": ["Rock"],
     "imageUrl": "covers/axis-bold-as-love.png"
   },
   {
     "title": "Case Study 01",
     "artist": "Daniel Caesar",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/case-study-01.png"
   },
   {
     "title": "Come Home The Kids Miss You",
     "artist": "Jack Harlow",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/come-home-the-kids-miss-you.png"
   },
   {
     "title": "Cole World: The Sideline Story",
     "artist": "J. Cole",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/cole-world-the-sideline-story.png"
   },
   {
     "title": "Chromakopia",
     "artist": "Tyler, The Creator",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/chromakopia.png"
   },
   {
     "title": "Cherry Bomb",
     "artist": "Tyler, The Creator",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/cherry-bomb.png"
   },
   {
     "title": "Charm",
     "artist": "Clairo",
-    "genres": "['Pop']",
+    "genres": ["Pop"],
     "imageUrl": "covers/clairo.png"
   },
   {
     "title": "Channel Orange",
     "artist": "Frank Ocean",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/channel-orange.png"
   },
   {
     "title": "Certified Lover Boy",
     "artist": "Drake",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/certified-lover-boy.png"
   },
   {
     "title": "Care Package",
     "artist": "Drake",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/care-package.png"
   },
   {
     "title": "What a Time to be Alive",
     "artist": "Drake & Future",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": null
   },
   {
     "title": "Funeral",
     "artist": "Lil Wayne",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": null
   },
   {
     "title": "Call Me If You Get Lost",
     "artist": "Tyler, The Creator",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/call-me-if-you-get-lost.png"
   },
   {
     "title": "Culture III",
     "artist": "Migos",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/culture-iii.png"
   },
   {
     "title": "Culture",
     "artist": "Migos",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/culture.png"
   },
   {
     "title": "Dark Sky Paradise",
     "artist": "Big Sean",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/dark-sky-paradise.png"
   },
   {
     "title": "Dark Lane Demo Tapes",
     "artist": "Drake",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/dark-lane-demo-tapes.png"
   },
   {
     "title": "D-Day",
     "artist": "Dreamville",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/d-day.png"
   },
   {
     "title": "Dreams Worth More Than Money",
     "artist": "Meek Mill",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/dreams-worth-more-than-money.png"
   },
   {
     "title": "Days Before Rodeo",
     "artist": "Travis Scott",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/days-before-rodeo.png"
   },
   {
     "title": "Dawn FM",
     "artist": "The Weeknd",
-    "genres": "['Pop', 'R&B']",
+    "genres": ["Pop", "R&B"],
     "imageUrl": "covers/dawn-fm.png"
   },
   {
     "title": "Hurry Up Tomorrow",
     "artist": "The Weeknd",
-    "genres": "['Pop', 'R&B']",
+    "genres": ["Pop", "R&B"],
     "imageUrl": "covers/hurry-up-tomorrow.png"
   },
   {
     "title": "Funk Wav Bounces Vol. 1",
     "artist": "Calvin Harris",
-    "genres": "['Pop', 'Hip-Hop']",
+    "genres": ["Pop", "Hip-Hop"],
     "imageUrl": "covers/funk-wav-bounces-vol-1.png"
   },
   {
     "title": "For Broken Ears",
     "artist": "Tems",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/for-broken-ears.png"
   },
   {
     "title": "For All The Dogs",
     "artist": "Drake",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/for-all-the-dogs.png"
   },
   {
     "title": "Flower Boy",
     "artist": "Tyler, The Creator",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/flower-boy.png"
   },
   {
     "title": "F-1 Trillion",
     "artist": "Post Malone",
-    "genres": "['Country']",
+    "genres": ["Country"],
     "imageUrl": "covers/f-1-trillion.png"
   },
   {
     "title": "Encore",
     "artist": "Eminem",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/encore.png"
   },
   {
     "title": "Good Kid, M.A.A.D City",
     "artist": "Kendrick Lamar",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/good-kid-maad-city.png"
   },
   {
     "title": "Good For You",
     "artist": "Amin\u00e9",
-    "genres": "['Pop', 'Hip-Hop']",
+    "genres": ["Pop", "Hip-Hop"],
     "imageUrl": "covers/good-for-you.png"
   },
   {
     "title": "GNX",
     "artist": "Kendrick Lamar",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/gnx.png"
   },
   {
     "title": "God Did",
     "artist": "DJ Khaled",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/god-did.png"
   },
   {
     "title": "Goblin",
     "artist": "Tyler, The Creator",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/goblin.png"
   },
   {
     "title": "Glass Houses",
     "artist": "Billy Joel",
-    "genres": "['Rock']",
+    "genres": ["Rock"],
     "imageUrl": "covers/glass-houses.png"
   },
   {
     "title": "Gemini",
     "artist": "Macklemore",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/gemini.png"
   },
   {
     "title": "How Do You Sleep At Night?",
     "artist": "Teezo Touchdown",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/how-do-you-sleep-at-night?.png"
   },
   {
     "title": "Honestly, Nevermind",
     "artist": "Drake",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/honestly-nevermind.png"
   },
   {
     "title": "Her Loss",
     "artist": "Drake & 21 Savage",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/her-loss.png"
   },
   {
     "title": "Hardstone Psycho",
     "artist": "Don Toliver",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/hardstone-psycho.png"
   },
   {
     "title": "Hunky Dory",
     "artist": "David Bowie",
-    "genres": "['Rock']",
+    "genres": ["Rock"],
     "imageUrl": "covers/hunky-dory.png"
   },
   {
     "title": "It\u2019s Not So Bad",
     "artist": "KYLE",
-    "genres": "['Pop', 'Hip-Hop']",
+    "genres": ["Pop", "Hip-Hop"],
     "imageUrl": "covers/it\u2019s-not-so-bad.png"
   },
   {
     "title": "Islah",
     "artist": "Kevin Gates",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/islah.png"
   },
   {
     "title": "IGOR",
     "artist": "Tyler, The Creator",
-    "genres": "['Pop', 'R&B', 'Hip-Hop]",
+    "genres": ["Pop", "R&B", "Hip-Hop"]",
     "imageUrl": "covers/igor.png"
   },
   {
-    "title": "If You're Reading This It's Too Late",
+    "title": "If You"re Reading This It's Too Late",
     "artist": "Drake",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/if-youre-reading-this-its-too-late.png"
   },
   {
     "title": "I Never Liked You",
     "artist": "Future",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/i-never-liked-you.png"
   },
   {
     "title": "Justified",
     "artist": "Justin Timberlake",
-    "genres": "['Pop']",
+    "genres": ["Pop"],
     "imageUrl": "covers/justified.png"
   },
   {
     "title": "I Decided",
     "artist": "Big Sean",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/i-decided.png"
   },
   {
     "title": "I Am > I Was",
     "artist": "21 Savage",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/i-am->-i-was.png"
   },
   {
     "title": "Jackboys",
     "artist": "Travis Scott",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/jackboys.png"
   },
   {
     "title": "Jackman",
     "artist": "Jack Harlow",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/jackman.png"
   },
   {
     "title": "KOD",
     "artist": "J. Cole",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/kod.png"
   },
   {
     "title": "Khaled Khaled",
     "artist": "DJ Khaled",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/khaled-khaled.png"
   },
   {
     "title": "Kaytramin\u00e9",
     "artist": "Kaytranada & Amin\u00e9",
-    "genres": "['Hip-Hop', 'Pop']",
+    "genres": ["Hip-Hop", "Pop"],
     "imageUrl": "covers/kaytramin\u00e9.png"
   },
   {
     "title": "Late Nights",
     "artist": "Jeremih",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/late-nights.png"
   },
   {
     "title": "Larger Than Life",
     "artist": "Brent Faiyaz",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/larger-than-life.png"
   },
   {
     "title": "The Lost Boy",
     "artist": "Cordae",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/the-lost-boy.png"
   },
   {
     "title": "Limbo",
     "artist": "Amin\u00e9",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/limbo.png"
   },
   {
     "title": "Light Of Mine",
     "artist": "KYLE",
-    "genres": "['Hip-Hop', 'Pop']",
+    "genres": ["Hip-Hop", "Pop"],
     "imageUrl": "covers/light-of-mine.png"
   },
   {
     "title": "Life Of A Don",
     "artist": "Don Toliver",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/life-of-a-don.png"
   },
   {
     "title": "Wasteland",
     "artist": "Bret Faiyaz",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/wasteland.png"
   },
   {
     "title": "Lovesick",
     "artist": "Don Toliver",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/lovesick.png"
   },
   {
     "title": "Heaven Or Hell",
     "artist": "Don Toliver",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/heaven-or-hell.png"
   },
   {
     "title": "Let's Start Here",
     "artist": "Lil Yatchy",
-    "genres": "['R&B', 'Rock']",
+    "genres": ["R&B", "Rock"],
     "imageUrl": "covers/let\u2019s-start-here.png"
   },
   {
     "title": "Mr. Morale & The Big Steppers",
     "artist": "Kendrick Lamar",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/mr-morale-and-the-big-steppers.png"
   },
   {
     "title": "More Life",
     "artist": "Drake",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/more-life.png"
   },
   {
     "title": "Moon Music",
     "artist": "Coldplay",
-    "genres": "['Pop']",
+    "genres": ["Pop"],
     "imageUrl": "covers/moon-music.png"
   },
   {
     "title": "Montero",
     "artist": "Lil Nas X",
-    "genres": "['Pop', 'Hip-Hop']",
+    "genres": ["Pop", "Hip-Hop"],
     "imageUrl": "covers/montero.png"
   },
   {
     "title": "The Miseducation Of Lauryn Hill",
     "artist": "Lauryn Hill",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/the-miseducation-of-lauryn-hill.png"
   },
   {
     "title": "Might Delete Later",
     "artist": "Gunna",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/might-delete-later.png"
   },
   {
     "title": "The Marshall Mathers LP",
     "artist": "Eminem",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/the-marshall-mathers-lp.png"
   },
   {
     "title": "Man On The Moon: The End Of Day",
     "artist": "Kid Cudi",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/man-on-the-moon-the-end-of-day.png"
   },
   {
     "title": "Magna Carta... Holy Grail",
     "artist": "Jay-Z",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/magna-carta-holy-grail.png"
   },
   {
     "title": "Nothing Was The Same",
     "artist": "Drake",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/nothing-was-the-same.png"
   },
   {
     "title": "Not All Heroes Wear Capes",
     "artist": "Metro Boomin",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/not-all-heroes-wear-capes.png"
   },
   {
     "title": "Spider-Man: Across The Spider-Verse",
     "artist": "Metro Boomin",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/spider-man-across-the-spider-verse.png"
   },
   {
     "title": "Heroes & Villains",
     "artist": "Metro Boomin",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/heroes-and-villains.png"
   },
   {
     "title": "Savage Mode II",
     "artist": "Metro Boomin & 21 Savage",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/savage-mode-ii.png"
   },
   {
     "title": "We Don\u2019t Trust You",
     "artist": "Metro Boomin & Future",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/we-don\u2019t-trust-you.png"
   },
   {
     "title": "We Still Don\u2019t Trust You",
     "artist": "Metro Boomin & Future",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/we-still-don\u2019t-trust-you.png"
   },
   {
     "title": "ONEPOINTFIVE",
     "artist": "Amin\u00e9",
-    "genres": "['Pop', 'Hip-Hop']",
+    "genres": ["Pop", "Hip-Hop"],
     "imageUrl": "covers/onepointfive.png"
   },
   {
     "title": "Professional Rapper",
     "artist": "Lil Dicky",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/professional-rapper.png"
   },
   {
     "title": "Please Excuse Me For Being Antisocial",
     "artist": "Roddy Rich",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/please-excuse-me-for-being-antisocial.png"
   },
   {
     "title": "Pink Tape",
     "artist": "Lil Uzi Vert",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/pink-tape.png"
   },
   {
     "title": "Pink Friday 2",
     "artist": "Nicki Minaj",
-    "genres": "['Hip-Hop', 'Pop']",
+    "genres": ["Hip-Hop", "Pop"],
     "imageUrl": "covers/pink-friday-2.png"
   },
   {
     "title": "Paul Anka Sings His Big 15",
     "artist": "Paul Anka",
-    "genres": "['Classic']",
+    "genres": ["Classic"],
     "imageUrl": "covers/paul-anka-sings-his-big-15.png"
   },
   {
     "title": "Piano Man",
     "artist": "Billy Joel",
-    "genres": "['Rock', 'Classic']",
+    "genres": ["Rock", "Classic"],
     "imageUrl": "covers/piano-man.png"
   },
   {
     "title": "Penith",
     "artist": "Lil Dicky",
-    "genres": "['Hip-Hop', 'Pop']",
+    "genres": ["Hip-Hop", "Pop"],
     "imageUrl": "covers/penith.png"
   },
   {
     "title": "Pet Sounds",
     "artist": "The Beach Boys",
-    "genres": "['Pop', 'Rock', 'Classic']",
+    "genres": ["Pop", "Rock", "Classic"],
     "imageUrl": "covers/pet-sounds.png"
   },
   {
     "title": "PARTYNEXTDOOR",
     "artist": "PARTYNEXTDOOR",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/partynextdoor.png"
   },
   {
     "title": "Recovery",
     "artist": "Eminem",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/recovery.png"
   },
   {
     "title": "Reasonable Doubt",
     "artist": "Jay-Z",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/reasonable-doubt.png"
   },
   {
     "title": "Rodeo",
     "artist": "Travis Scott",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/rodeo.png"
   },
   {
     "title": "Revenge Of The Dreamers III",
     "artist": "Dreamville",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/revenge-of-the-dreamers-iii.png"
   },
   {
     "title": "Renaissance",
     "artist": "Beyonc\u00e9",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/renaissance.png"
   },
   {
     "title": "Sweet Action",
     "artist": "Jack Harlow",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/sweet-action.png"
   },
   {
     "title": "Stoney",
     "artist": "Post Malone",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/stoney.png"
   },
   {
     "title": "Sremmlife",
     "artist": "Rae Sremmurd",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/sremmlife.png"
   },
   {
     "title": "Spider-Man: Into The Spider-Verse",
     "artist": "Various Artists",
-    "genres": "['Hip-Hop', 'R&B', 'Pop']",
+    "genres": ["Hip-Hop", "R&B", "Pop"],
     "imageUrl": "covers/spider-man-into-the-spider-verse.png"
   },
   {
     "title": "Sos",
     "artist": "SZA",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/sos.png"
   },
   {
     "title": "Ctrl",
     "artist": "SZA",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/ctrl.png"
   },
   {
     "title": "So Far Gone",
     "artist": "Drake",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/so-far-gone.png"
   },
   {
     "title": "Smyle",
     "artist": "KYLE",
-    "genres": "['Hip-Hop', 'Pop']",
+    "genres": ["Hip-Hop", "Pop"],
     "imageUrl": "covers/smyle.png"
   },
   {
     "title": "Shoot For The Stars, Aim For The Moon",
     "artist": "Pop Smoke",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/shoot-for-the-stars-aim-for-the-moon.png"
   },
   {
     "title": "Scorpion",
     "artist": "Drake",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/scorpion.png"
   },
   {
     "title": "Surf\u2019s Up",
     "artist": "The Beach Boys",
-    "genres": "['Rock', 'Classic']",
+    "genres": ["Rock", "Classic"],
     "imageUrl": "covers/surf\u2019s-up.png"
   },
   {
     "title": "TWOPOINTFIVE",
     "artist": "Amin\u00e9",
-    "genres": "['Hip-Hop', 'Pop']",
+    "genres": ["Hip-Hop", "Pop"],
     "imageUrl": "covers/twopointfive.png"
   },
   {
     "title": "The Come Up",
     "artist": "J. Cole",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/the-come-up.png"
   },
   {
     "title": "There\u2019s Really A Wolf",
     "artist": "Russ",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/there\u2019s-really-a-wolf.png"
   },
   {
     "title": "The Stranger",
     "artist": "Billy Joel",
-    "genres": "['Rock', 'Classic']",
+    "genres": ["Rock", "Classic"],
     "imageUrl": "covers/the-stranger.png"
   },
   {
     "title": "The Pink Tape",
     "artist": "Lil Uzi Vert",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/the-pink-tape.png"
   },
   {
     "title": "The Warm Up",
     "artist": "J. Cole",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/the-warm-up.png"
   },
   {
     "title": "The Off-Season",
     "artist": "J. Cole",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/the-off-season.png"
   },
   {
     "title": "The Melodic Blue",
     "artist": "Baby Keem",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/the-melodic-blue.png"
   },
   {
     "title": "The Forever Story",
     "artist": "JID",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/the-forever-story.png"
   },
   {
     "title": "The Eminem Show",
     "artist": "Eminem",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/the-eminem-show.png"
   },
   {
     "title": "The Death Of Slim Shady",
     "artist": "Eminem",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/the-death-of-slim-shady.png"
   },
   {
     "title": "The Doors",
     "artist": "The Doors",
-    "genres": "['Rock']",
+    "genres": ["Rock"],
     "imageUrl": "covers/the-doors.png"
   },
   {
     "title": "Coloring Book",
     "artist": "Chance the Rapper",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/coloring-book.png"
   },
   {
     "title": "The Blueprint",
     "artist": "Jay-Z",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/the-blueprint.png"
   },
   {
     "title": "The Blueprint 2",
     "artist": "Jay-Z",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/the-blueprint-2.png"
   },
   {
     "title": "The Blueprint III",
     "artist": "Jay-Z",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/the-blueprint-3.png"
   },
   {
     "title": "That\u2019s What They All Say",
     "artist": "Jack Harlow",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/that\u2019s-what-they-all-say.png"
   },
   {
     "title": "Thank Me Later",
     "artist": "Drake",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/thank-me-later.png"
   },
   {
     "title": "Tha Carter V",
     "artist": "Lil Wayne",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/tha-carter-v.png"
   },
   {
     "title": "Tha Carter IV",
     "artist": "Lil Wayne",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/tha-carter-iv.png"
   },
   {
     "title": "Tha Carter III",
     "artist": "Lil Wayne",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/tha-carter-iii.png"
   },
   {
     "title": "Turnstiles",
     "artist": "Billy Joel",
-    "genres": "['Rock']",
+    "genres": ["Rock"],
     "imageUrl": "covers/turnstiles.png"
   },
   {
     "title": "The Velvet Underground & Nico",
     "artist": "The Velvet Underground",
-    "genres": "['Rock']",
+    "genres": ["Rock"],
     "imageUrl": "covers/the-velvet-underground-and-nico.png"
   },
   {
     "title": "Take Care",
     "artist": "Drake",
-    "genres": "['Hip-Hop', 'R&B']",
+    "genres": ["Hip-Hop", "R&B"],
     "imageUrl": "covers/take-care.png"
   },
   {
     "title": "Trapsoul",
     "artist": "Bryson Tiller",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/trapsoul.png"
   },
   {
     "title": "Trompe Le Monde",
     "artist": "Pixies",
-    "genres": "['Rock']",
+    "genres": ["Rock"],
     "imageUrl": "covers/trompe-le-monde.png"
   },
   {
     "title": "Utopia",
     "artist": "Travis Scott",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/utopia.png"
   },
   {
     "title": "Unorthodox Jukebox",
     "artist": "Bruno Mars",
-    "genres": "['Pop']",
+    "genres": ["Pop"],
     "imageUrl": "covers/unorthodox-jukebox.png"
   },
   {
     "title": "Ultra 85",
     "artist": "Logic",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/ultra-85.png"
   },
   {
     "title": "Ultimate Sinatra",
     "artist": "Frank Sinatra",
-    "genres": "['Classic']",
+    "genres": ["Classic"],
     "imageUrl": "covers/ultimate-sinatra.png"
   },
   {
     "title": "Views",
     "artist": "Drake",
-    "genres": "['Hip-Hop', 'Pop', 'R&B']",
+    "genres": ["Hip-Hop", "Pop", "R&B"],
     "imageUrl": "covers/views.png"
   },
   {
     "title": "Wunna",
     "artist": "Gunna",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/wunna.png"
   },
   {
     "title": "Wolf",
     "artist": "Tyler, The Creator",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/wolf.png"
   },
   {
     "title": "Wildest Dreams",
     "artist": "Majid Jordan",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/wildest-dreams.png"
   },
   {
     "title": "What\u2019s Going On",
     "artist": "Marvin Gaye",
-    "genres": "['R&B']",
+    "genres": ["R&B"],
     "imageUrl": "covers/what\u2019s-going-on.png"
   },
   {
     "title": "Zach Bryan",
     "artist": "Zach Bryan",
-    "genres": "['Country']",
+    "genres": ["Country"],
     "imageUrl": "covers/zach-bryan.png"
   },
   {
-    "title": "Get Rich Or Die Tryin'",
+    "title": "Get Rich Or Die Tryin"",
     "artist": "50 Cent",
-    "genres": "['Hip-Hop']",
+    "genres": ["Hip-Hop"],
     "imageUrl": "covers/get-rich-or-die-tryin.png"
   }
-]
+"]
